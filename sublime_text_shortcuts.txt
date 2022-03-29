@@ -1,0 +1,10 @@
+
+
+ctrl + shift + updown : shift rows
+ctrl + shift + leftright : highlight words
+alt + f3 : select same name
+alt + shift + drag : select + multiple cursor
+ctrl + click : select rows
+ctrl + d : select same name in order
+alt + shift + num : opens windows
+ctrl + tab : switches tabs

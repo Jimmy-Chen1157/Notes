@@ -1,0 +1,13 @@
+git init | initializes the current folder as a git repository
+git status | current status of the folder
+git add | add file/folder to staging area
+git commit | commit the changes to the git repository
+git log --oneline | see a brief log of commits
+git checkout | checkout the file from an older commit
+git reset <file> | unstage a staged file, but leaves working directory unchanged
+git reset | reset the staging area to the last commit without disturbing the working directory
+git remote add origin <repository URL> | add the remote online repository
+git fetch origin | gets new commit from github
+git merge origin/master | merge changes from github to local master branch
+git clone | clone an online git repository to your computer
+.gitignore(file) | ignores specific uncommitted files/folders

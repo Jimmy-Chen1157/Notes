@@ -1,0 +1,8 @@
+npm init | initialize
+npm install lite-server --save-dev | install lite-server
+package.json --> "scripts": {
+    				"start": "npm run lite",
+    				"test": "echo \"Error: no test specified\" && exit 1",
+    			    	"lite": "lite-server"
+  			    },
+npm start | start server

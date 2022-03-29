@@ -1,0 +1,26 @@
+db.createUser({
+	user: "--name--",
+	pwd: "--password--",
+	roles: ["readWrite", "dbAdmin"]
+});
+
+db.createCollection("--collection--")
+
+show collections
+
+show dbs
+
+db.--collection--.insert({--object--});
+
+db.--collection--.update({object_id},{$set:{--new_parameters--}}); | adds new parameters to object
+
+db.--collection--.update({object_id},{$inc:{--parameters--}}); | increments parameters
+
+db.--collection--.update({object_id},{$unset:{--parameters--}}); | deletes parameters
+
+db.--collection--.find().pretty() | shows objects
+
+db.--collection--.update({object_id},{$rename:{--parameters--}});
+
+db.--collection--.remove({object_id}); 
+
