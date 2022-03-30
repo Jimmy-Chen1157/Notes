@@ -7,4 +7,4 @@ alt + shift + drag : select + multiple cursor
 ctrl + click : select rows
 ctrl + d : select same name in order
 alt + shift + num : opens window
-ctrl + tab : switches tabs
+ctrl + tab : switch tabs
