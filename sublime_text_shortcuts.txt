@@ -6,5 +6,5 @@ alt + f3 : select same name
 alt + shift + drag : select + multiple cursor
 ctrl + click : select rows
 ctrl + d : select same name in order
-alt + shift + num : opens windows
+alt + shift + num : opens window
 ctrl + tab : switches tabs
