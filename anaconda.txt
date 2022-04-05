@@ -1,0 +1,6 @@
+
+conda env list | list environments
+conda create --name [env name] [starting packages] | create environment
+activate [env] | activate environment
+conda remove --name [env] --all | removes env
+
