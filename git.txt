@@ -6,7 +6,10 @@ git log --oneline | see a brief log of commits
 git checkout | checkout the file from an older commit
 git reset <file> | unstage a staged file, but leaves working directory unchanged
 git reset | reset the staging area to the last commit without disturbing the working directory
+git remote set origin <repository ssh> | change remote repository
 git remote add origin <repository ssh> | add the remote online repository
+ssh -T git@host | check connection to host
+ssh-keygen | generate ssh keys
 git fetch origin | gets new commit from github
 git merge origin/master | merge changes from github to local master branch
 git clone | clone an online git repository to your computer
